@@ -4,9 +4,13 @@
 //演習問題1-2 連立方程式の解を出力するプログラム
 // ガウス法でやりました(コメントでは一番上の行を0行、左の列を0列としている)
 int main(void) {
+
+    // 次数を入力してもらう
     int n;
     printf("連立方程式の解を求めるプログラムです。\n次数を整数で入力してください");
     scanf("%d",&n);
+
+    // 各要素の値を入力してもらう
     double arr[n][n+1];
     for (int i = 0;i<n;i++){
         for(int j=0;j<n+1;j++){
@@ -15,7 +19,8 @@ int main(void) {
         }
     }
 
-    for(int i=0;i<n;i++){ //行を変える、n周
+    //左側を単位行列に直す
+    for(int i=0;i<n;i++){ //注目する行を変える、n行周る
         printf("次のフェーズi=%d\n",i);
         printf("割る数は%lf\n",arr[i][i]);
         double c;
@@ -40,9 +45,8 @@ int main(void) {
                 }
             }
         }
-        // printf("割る数は%d\n",c);
-        // printf("行を割っていきます\n");
-        // printf("割り終わりました\n");
+
+        //この時点での行列がどうなっているか表示させる
         printf("行列は\n");
         for(int m=0;m<n;m++){
             for(int o=0;o<n+1;o++){
@@ -51,6 +55,8 @@ int main(void) {
             printf("\n");
         }
         printf("です\n");
+
+        //各行からi行目を引いていく
         printf("次のフェーズi=%d\n",i);
         for(int j=0;j<n;j++){
             double x=arr[j][i];
@@ -58,6 +64,8 @@ int main(void) {
                 if(i!=j){
                     printf("関与する数字は%lf\n",x);
                     arr[j][l] -= (arr[i][l]*x);
+
+                    //この時点での行列を表示
                     printf("行列は\n");
                     for(int m=0;m<n;m++){
                         for(int o=0;o<n+1;o++){
@@ -74,6 +82,7 @@ int main(void) {
         // }    
     }
 
+    //エラーを取得する(単位行列になっているかどうか)
     for(int i=0;i<n;i++){
         for(int j=0;j<n;j++){
             if(i==j){
@@ -90,6 +99,8 @@ int main(void) {
                 }
             }
         }
+
+        //　解を出力する
         printf("解の1つは%lfです",arr[i][n]);
     }
 }
