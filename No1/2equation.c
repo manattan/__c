@@ -1,14 +1,7 @@
 # include "stdio.h"
 # include "math.h"
 
-// int f(double a,double b,double c) {
-//     double arr[2];
-//     arr[0]=(-b+sqrt(b*b-4*a*c))/(2*a);
-//     arr[1]=(-b-sqrt(b*b-4*a*c))/(2*a);
-//     return arr;
-// }
-
-int main(void) {
+void main(void) {
     double a,b,c;
     printf("a= ");
     scanf("%lf",&a);

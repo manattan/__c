@@ -1,7 +1,7 @@
 // # include "stdafx.h"
 # include "stdio.h"
 
-int main(void) {
+void main(void) {
     double x,y;
     FILE *fp, *fpp;
     int err,err2; // errno_t が望ましい...

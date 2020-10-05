@@ -1,6 +1,6 @@
 # include "stdio.h"
 
-int main(void){
+void main(void){
     double x; // 実数xを定義
     printf("x=");
     scanf("%lf",&x); // scanf_sとする必要はない
