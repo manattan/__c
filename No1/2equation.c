@@ -1,7 +1,7 @@
 # include "stdio.h"
 # include "math.h"
 
-void main(void) {
+int main(void) {
     double a,b,c;
     printf("a= ");
     scanf("%lf",&a);
@@ -12,6 +12,7 @@ void main(void) {
 
     if( b*b-4*a*c < 0){
         printf("実数解が存在しません。\n");
+        return 0
     } else {
         double x1,x2;
         x1 =(-b+sqrt(b*b-4*a*c))/(2*a);

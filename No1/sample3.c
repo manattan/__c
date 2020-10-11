@@ -10,7 +10,7 @@ void main(void) {
     err2 = fopen_s(&fpp, "sample3_2.txt", "x"); // 上書き
 
     if (err!=0 | err2!=0) {
-        printf("ファイルを読み込めませんでした"); //オープンモードがrでないため不要
+        printf("ファイルを読み込めませんでした"); //オープンモードがrでないため不要ではある
     } else {
         printf("x= ");
         scanf("%lf",&x);
