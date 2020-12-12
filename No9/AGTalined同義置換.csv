@@ -1,0 +1,18 @@
+ENSP00000355627_Hsap/1-1455
+ENSOGAP00000010104_Ogar/1-1476,0.372
+ENSPTRP00000003543_Ptro/1-1455,0.038,0.368
+ENSNLEP00000002092_Nleu/1-1455,0.064,0.371,0.056
+ENSGGOP00000000194_Ggor/1-1473,0.029,0.374,0.012,0.047
+ENSMMUP00000007736_Mmul/1-1455,0.107,0.389,0.101,0.119,0.095
+ENSCJAP00000022002_Cjac/1-1458,0.16,0.366,0.14,0.161,0.144,0.143
+ENSPANP00000007971_Panu/1-1470,0.101,0.373,0.098,0.117,0.092,0.029,0.141
+ENSPPYP00000000122_Pabe/1-1455,0.055,0.395,0.046,0.063,0.037,0.111,0.153,0.107
+ENSCSAP00000006790_Csab/1-1455,0.094,0.367,0.084,0.108,0.083,0.042,0.148,0.035,0.098
+
+Table. Estimates of Codon-based Evolutionary Divergence between Sequences 
+The number of synonymous substitutions per synonymous site from between sequences are shown. Analyses were conducted using the Pamilo-Bianchi-Li model [1]. The analysis involved 10 nucleotide sequences. All positions containing gaps and missing data were eliminated. There were a total of 484 positions in the final dataset. Evolutionary analyses were conducted in MEGA7 [2]. 
+
+
+1. Pamilo P. and Bianchi N.O. (1993). Evolution of the Zfx and Zfy, genes: Rates and interdependence between the genes. Molecular Biology and Evolution 10:271-281.
+2. Kumar S., Stecher G., and Tamura K. (2016). MEGA7: Molecular Evolutionary Genetics Analysis version 7.0 for bigger datasets.Molecular Biology and Evolution 33:1870-1874.
+Disclaimer: Although utmost care has been taken to ensure the correctness of the caption, the caption text is provided "as is" without any warranty of any kind. Authors advise the user to carefully check the caption prior to its use for any purpose and report any errors or problems to the authors immediately (www.megasoftware.net). In no event shall the authors and their employers be liable for any damages, including but not limited to special, consequential, or other damages. Authors specifically disclaim all other warranties expressed or implied, including but not limited to the determination of suitability of this caption text for a specific purpose, use, or application. 
