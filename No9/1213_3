@@ -1,0 +1,25 @@
+gi|4504681|ref|NP_000625.1|_C-X-C_chemokine_receptor_type_1_Homo_sapiens
+gi|530370301|ref|XP_005246587.1|_PREDICTED:_C-X-C_chemokine_receptor_type_2_isoform_X1_Homo_sapiens,0.262
+gi|4504683|ref|NP_001548.1|_C-X-C_chemokine_receptor_type_2_Homo_sapiens,0.262,0
+gi|269973859|ref|NP_001161770.1|_C-X-C_chemokine_receptor_type_2_Homo_sapiens,0.262,0,0
+gi|37188165|ref|NP_113597.2|_C-C_chemokine_receptor_type_6_Homo_sapiens,1.079,1.067,1.067,1.067
+gi|37187860|ref|NP_004358.2|_C-C_chemokine_receptor_type_6_Homo_sapiens,1.065,1.077,1.077,1.077,0.009
+gi|5031627|ref|NP_005499.1|_C-C_chemokine_receptor_type_4_Homo_sapiens,1.357,1.326,1.326,1.326,1.196,1.198
+gi|373838705|ref|NP_001243298.1|_C-C_chemokine_receptor_type_9_isoform_B_Homo_sapiens,1.271,1.258,1.258,1.258,1.146,1.139,1.349
+gi|14043044|ref|NP_006632.2|_C-C_chemokine_receptor_type_9_isoform_B_Homo_sapiens,1.271,1.258,1.258,1.258,1.146,1.139,1.349,0
+gi|767922197|ref|XP_011531614.1|_PREDICTED:_C-C_chemokine_receptor_type_9_isoform_X1_Homo_sapiens,1.271,1.258,1.258,1.258,1.146,1.139,1.349,0,0
+gi|14043042|ref|NP_112477.1|_C-C_chemokine_receptor_type_9_isoform_A_Homo_sapiens,1.271,1.258,1.258,1.258,1.146,1.139,1.349,0,0,0
+gi|4503175|ref|NP_003458.1|_C-X-C_chemokine_receptor_type_4_isoform_b_Homo_sapiens,1.365,1.375,1.375,1.375,1.375,1.373,1.357,1.325,1.325,1.325,1.325
+gi|56790927|ref|NP_001008540.1|_C-X-C_chemokine_receptor_type_4_isoform_a_Homo_sapiens,1.394,1.381,1.381,1.381,1.384,1.382,1.373,1.347,1.347,1.347,1.347,0.016
+gi|4504099|ref|NP_001495.1|_C-X-C_chemokine_receptor_type_3_isoform_1_Homo_sapiens,1.252,1.174,1.174,1.174,1.296,1.315,1.459,1.509,1.509,1.509,1.509,1.365,1.361
+gi|4502415|ref|NP_001707.1|_C-X-C_chemokine_receptor_type_5_isoform_1_Homo_sapiens,1.436,1.273,1.273,1.273,1.444,1.428,1.523,1.472,1.472,1.472,1.472,1.381,1.382,1.237
+gi|530421722|ref|XP_005262313.1|_PREDICTED:_C-X-C_chemokine_receptor_type_3_isoform_X1_Homo_sapiens,1.252,1.174,1.174,1.174,1.296,1.315,1.459,1.509,1.509,1.509,1.509,1.365,1.361,0,1.237
+gi|218563730|ref|NP_001136269.1|_C-X-C_chemokine_receptor_type_3_isoform_2_Homo_sapiens,1.252,1.174,1.174,1.174,1.296,1.315,1.459,1.509,1.509,1.509,1.509,1.365,1.361,0,1.237,0
+
+Table. Estimates of Evolutionary Divergence between Sequences 
+The number of amino acid substitutions per site from between sequences are shown. Analyses were conducted using the JTT matrix-based model [1]. The analysis involved 17 amino acid sequences. All positions containing gaps and missing data were eliminated. There were a total of 325 positions in the final dataset. Evolutionary analyses were conducted in MEGA7 [2]. 
+
+
+1. Jones D.T., Taylor W.R., and Thornton J.M. (1992). The rapid generation of mutation data matrices from protein sequences. Computer Applications in the Biosciences 8: 275-282.
+2. Kumar S., Stecher G., and Tamura K. (2016). MEGA7: Molecular Evolutionary Genetics Analysis version 7.0 for bigger datasets.Molecular Biology and Evolution 33:1870-1874.
+Disclaimer: Although utmost care has been taken to ensure the correctness of the caption, the caption text is provided "as is" without any warranty of any kind. Authors advise the user to carefully check the caption prior to its use for any purpose and report any errors or problems to the authors immediately (www.megasoftware.net). In no event shall the authors and their employers be liable for any damages, including but not limited to special, consequential, or other damages. Authors specifically disclaim all other warranties expressed or implied, including but not limited to the determination of suitability of this caption text for a specific purpose, use, or application. 
